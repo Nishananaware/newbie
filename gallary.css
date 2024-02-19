@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ 
+}
+body{
+    width: 100%;
+    height: 100vh;
+   
+}
+h1{
+      padding:  10px 0 0 0;
+     background-color:#665687;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin-top:1rem;
+      text-align: center;
+       font-size: 3rem;
+       font-family: Optima, sans-serif;
+       color: aliceblue;
+       border-bottom:15px solid #3f3750;
+}
+.main{
+    width: 70%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    gap:5px ;
+}
+.column1{
+    
+    display: grid;
+    grid-template-rows: 70% 1fr;
+    
+}
+.column2{
+   
+    display: grid;
+    grid-template-rows:10% 1fr ;
+
+}
+.column3{
+    
+    display: grid;
+    grid-template-rows: 70% 1fr;
+  
+}
+.rows1{
+    margin-top: 5px;
+    width: 70%;
+    height: 30vh;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    gap: 5px;
+}
+div{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.one{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-image: url(./istockphoto-1193476717-1024x1024.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-image: url(./istockphoto-1660821332-1024x1024.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-image: url(./photo-1511871893393-82e9c16b81e3.avif);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-image: url(./Pocket-Moleskine-coloured-diary-with-address-book-550x0-c-default.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.six{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-image: url(./premium_photo-1706189732178-a3b7eae819bb.avif);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    font-family: Papyrus, fantasy;
+    color: #115a64;
+    padding-left: 1.3rem;
+}
+i{
+   
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: #357a83;
+ 
+}
+#iconshoo{
+    margin-top: 0;
+    }
+#iconbook{
+    width: 70%;
+
+}
+#icontodo{
+    width: 60%;
+}

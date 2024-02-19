@@ -1,0 +1,84 @@
+body{
+    background-image: url(./lgpage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.Signup{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(206, 185, 185);
+    border-radius: 3px;
+}
+.login{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(202, 185, 185);
+    border-radius: 3px;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(19, 82, 61);
+    color: white;
+    font-size: 20px;
+}
+input[type="button"]:hover{
+background: transparent;
+border: 1px solid rgb(82, 31, 82);
+box-shadow: 5px 5px   rgb(13, 20, 29);
+}
+input[type="button"]{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+background-color: rgb(19, 82, 61);   
+border-radius: 8px;
+}
+p{
+    text-align: center;
+    padding-top:20px;
+    font-size: 15px;
+}
+.part2{
+    text-align: center;
+    color: rgb(18, 48, 77);
+    font-size: 15px;
+    margin-top:-10px ;
+}
+.part2 a{
+    color: rgb(12, 78, 57);
+}
